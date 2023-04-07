@@ -6,6 +6,8 @@
 /* Screen */
 @import"screen/login.css";
 
+@import"components/nav-bar.css";
+
 body{
   font-family: 'Open Sans', sans-serif;
 }
