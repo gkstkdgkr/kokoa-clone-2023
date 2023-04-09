@@ -12,7 +12,24 @@
   justify-content: space-between;
 }
 .nav__link{
+  position: relative;
   color: #2e363e;
+}
+
+.nav__notification{
+  background-color: tomato;
+  width: 26px;
+  height: 26px;
+  border-radius: 13px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  left: 15px;
+  bottom: 15px;
+  /* position: absolute 는 부모 position: relative 에 따라 적용 */
 }
 body{
   height: 1000vh;
